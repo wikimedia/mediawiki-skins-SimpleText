@@ -1,7 +1,7 @@
 SimpleText skin for MediaWiki
 =============================
 
-https://samwilson.id.au/SimpleText_MediaWiki_skin
+https://www.mediawiki.org/wiki/Special:MyLangauge/Skin:SimpleText
 
 ## Kudos
 
