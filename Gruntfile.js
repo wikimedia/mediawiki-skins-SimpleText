@@ -7,6 +7,9 @@ module.exports = function ( grunt ) {
 
 	grunt.initConfig( {
 		eslint: {
+			options: {
+				cache: true
+			},
 			all: [
 				'*.js',
 				'**/*.js',
@@ -26,6 +29,9 @@ module.exports = function ( grunt ) {
 			]
 		},
 		stylelint: {
+			options: {
+				cache: true
+			},
 			all: [
 				'**/*.css',
 				'**/*.less',
