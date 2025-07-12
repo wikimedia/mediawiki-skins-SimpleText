@@ -1,7 +1,7 @@
 SimpleText skin for MediaWiki
 =============================
 
-https://www.mediawiki.org/wiki/Special:MyLangauge/Skin:SimpleText
+https://www.mediawiki.org/wiki/Special:MyLanguage/Skin:SimpleText
 
 ## Kudos
 
