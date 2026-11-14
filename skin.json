@@ -8,7 +8,7 @@
 	"license-name": "GPL-3.0+",
 	"type": "skin",
 	"requires": {
-		"MediaWiki": ">= 1.40.0"
+		"MediaWiki": ">= 1.46.0"
 	},
 	"ValidSkinNames": {
 		"simpletext": {
@@ -17,6 +17,14 @@
 				{
 					"name": "simpletext",
 					"responsive": true,
+					"menus": [
+						"associated-pages",
+						"views",
+						"actions",
+						"variants",
+						"user-page",
+						"user-menu"
+					],
 					"styles": [
 						"skins.simpletext"
 					],

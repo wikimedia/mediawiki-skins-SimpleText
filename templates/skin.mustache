@@ -36,9 +36,9 @@
 
 <footer>
 	<ul>
-		{{#data-portlets.data-namespaces}}
+		{{#data-portlets.data-associated-pages}}
 			{{{html-items}}}
-		{{/data-portlets.data-namespaces}}
+		{{/data-portlets.data-associated-pages}}
 		{{#data-portlets.data-views}}
 			{{{html-items}}}
 		{{/data-portlets.data-views}}
@@ -49,6 +49,9 @@
 			{{#data-portlets-first}}{{{html-items}}}{{/data-portlets-first}}
 			{{#array-portlets-rest}}{{{html-items}}}{{/array-portlets-rest}}
 		{{/data-portlets-sidebar}}
+		{{#data-portlets.data-user-page}}
+			{{{html-items}}}
+		{{/data-portlets.data-user-page}}
 		{{#data-portlets.data-user-menu}}
 			{{{html-items}}}
 		{{/data-portlets.data-user-menu}}
